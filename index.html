@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="stylesheet" href="index.css" />
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="flex">
+    <div class="main">
+      <div class="leftBox flex">
+        <p>Your Result</p>
+        <div class="circle flex">
+          <span style="font-size: 35px; font-weight: 800">76</span> of 100
+        </div>
+        <span style="font-size: 18px">Great</span>
+        <p style="text-align: center">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <div class="rightBox">
+        <h4>Summary</h4>
+        <div class="summary-value">
+          <div class="red">
+            <span
+              style="
+                color: hsl(0, 100%, 67%);
+                display: flex;
+                align-items: center;
+              "
+              ><img src="assets/images/icon-reaction.svg" alt="" />
+              Reaction </span
+            >80 / 100
+          </div>
+          <div class="yellow">
+            <span
+              style="
+                color: hsl(39, 100%, 56%);
+                display: flex;
+                align-items: center;
+              "
+              ><img src="assets/images/icon-memory.svg" alt="" /> Memory </span
+            >92 / 100
+          </div>
+          <div class="green">
+            <span
+              style="
+                color: hsl(166, 100%, 37%);
+                display: flex;
+                align-items: center;
+              "
+              ><img src="assets/images/icon-verbal.svg" alt="" /> Verbal </span
+            >61 / 100
+          </div>
+          <div class="blue">
+            <span
+              style="
+                color: hsl(234, 85%, 45%);
+                display: flex;
+                align-items: center;
+              "
+              ><img src="assets/images/icon-visual.svg" alt="" /> Visual</span
+            >
+            72 /100
+          </div>
+        </div>
+        <button class="continue">Continue</button>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Akash Kumar</a>.
+    </div>
+  </body>
+</html>
